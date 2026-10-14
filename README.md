@@ -9,21 +9,21 @@ To write a program to find the LU Decomposition of a matrix.
 
 ## Algorithm
 ### 5A)
-step1: start the program.
-step2: import the Numpy library and the lu function from scipy.linalg. 
-step3: get the input matrix from the user.
-step4: perform LU decomposition to find the lower triangular matrix(L) and upper triangular matrix(U).
-step5: Display the L and U matrices.
-step6: stop the program.
+1. start the program.
+2. import the Numpy library and the lu function from scipy.linalg. 
+3. get the input matrix from the user.
+4. perform LU decomposition to find the lower triangular matrix(L) and upper triangular matrix(U).
+5. Display the L and U matrices.
+6. stop the program.
 
 ### 5B)
-step1: start the program.
-step2: import the Numpy library and the lu_factor and lu_solve functions from scipy.linalg.
-step3: get the coefficient matrix A and the constant matrix b as input from the user.
-step4: perform LU factorization of matrix A using lu_factor().
-step5: solve the system of equations using lu_solve() to find the solution matrix X.
-step6: Display the solution matrix X.
-step7: stop the program.
+1. start the program.
+2. import the Numpy library and the lu_factor and lu_solve functions from scipy.linalg.
+3. get the coefficient matrix A and the constant matrix b as input from the user.
+4. perform LU factorization of matrix A using lu_factor().
+5. solve the system of equations using lu_solve() to find the solution matrix X.
+6. Display the solution matrix X.
+7. stop the program.
 
 
 ## Program:
