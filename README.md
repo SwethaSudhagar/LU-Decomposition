@@ -28,11 +28,10 @@ To write a program to find the LU Decomposition of a matrix.
 
 ## Program:
 ### 5A) To find the L and U matrix
-'''python
-'''Program to find L and U matrix using LU decomposition.'''
+'''Program to find L and U matrix using LU decomposition.
 Developed by: swetha s
 RegisterNumber: 26012309 
-
+'''
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -41,15 +40,12 @@ A=np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
-'''
 
-
-### 5B) To print X matrix (solution to the equations)
-'''python
-'''Program to solve a matrix using LU decomposition.'''
+### 5B)
+''Program to solve a matrix using LU decomposition.
 Developed by: swetha s
 RegisterNumber: 26012309
-
+'''
 
 # To print X matrix (solution to the equations)
 import os
@@ -61,7 +57,6 @@ b=np.array(eval(input()))
 l,p=lu_factor(a)
 x=lu_solve((l,p),b)
 print(x)
-'''
 
 ## Output:
 ### 5A) <img width="621" height="715" alt="image" src="https://github.com/user-attachments/assets/e4b4c350-88a8-49e6-9acb-7b3f492a0839" />
