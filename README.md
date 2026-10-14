@@ -43,7 +43,7 @@ print(U)
 
 ### 5B)
 ''Program to solve a matrix using LU decomposition.
-Developed by: swetha s
+ Developed by: swetha s
 RegisterNumber: 26012309
 '''
 
